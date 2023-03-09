@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1AF | sed -e 's#/$#,/#' | tr '\n' ',' | sed 's/,$/\n/'
+ls -amvp
